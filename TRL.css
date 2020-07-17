@@ -3,6 +3,14 @@
     overflow: hidden;
 }
 
+.c_image{
+    width: 100%;
+}
+
+.c_parrafo{
+    font-size: 36px;
+}
+
 .video{
     margin: 2% 2% 2% 2%;
 }
