@@ -1,5 +1,6 @@
 .c_home{
-    height: 800px;
+    height: 600px;
+    overflow: hidden;
 }
 
 .video{

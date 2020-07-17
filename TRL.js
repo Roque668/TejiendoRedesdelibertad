@@ -83,7 +83,7 @@ $(document).ready(function(){
     $("#btn-anterior").on("click", function(){
         if(clicks === 4){
             $("#leccion").html(
-                "h1>Listas en HTML</h1><br><h2>Listas de HTML permiten a desarrolladores web agrupar items relacionados</h2><br><ul style='list-style-type:circle'> <li>Existen las listas no ordenadas en donde cada item sera marcado con punto bullet. Estas utilizan la etiqueta &lt;ul&gt;</li><li>Estan las listas ordenadas, las cuales cada item sera enumerado. Estas utilizan la etiqueta &lt;ol&gt;</li></ul><p>Mira el siguiente video para conocer mas sobre las listas en HTML.</p><br><div class='d-flex justify-content-center video'><iframe width='750' height='441' src='https://www.youtube.com/embed/IRbEXqBBOCo' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>"
+                "<h1>Listas en HTML</h1><br><h2>Listas de HTML permiten a desarrolladores web agrupar items relacionados</h2><br><ul style='list-style-type:circle'> <li>Existen las listas no ordenadas en donde cada item sera marcado con punto bullet. Estas utilizan la etiqueta &lt;ul&gt;</li><li>Estan las listas ordenadas, las cuales cada item sera enumerado. Estas utilizan la etiqueta &lt;ol&gt;</li></ul><p>Mira el siguiente video para conocer mas sobre las listas en HTML.</p><br><div class='d-flex justify-content-center video'><iframe width='750' height='441' src='https://www.youtube.com/embed/IRbEXqBBOCo' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>"
             )
             clicks -= 1
         }
