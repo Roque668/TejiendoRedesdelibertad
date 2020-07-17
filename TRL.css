@@ -1,0 +1,57 @@
+.c_home{
+    height: 800px;
+}
+
+.video{
+    margin: 2% 2% 2% 2%;
+}
+
+.container{
+    margin-top: 2%;
+}
+
+#text_editor { 
+    margin:5%;
+    padding:0;
+    height:500px;
+    width:100%;
+    overflow: hidden;
+}
+
+#editor_container {
+    height:100%;
+    width: 100%;
+    white-space : nowrap; 
+    overflow : hidden;
+    position: center;
+    border: solid 1px rgb(189, 189, 189);
+    border-radius: 10px;
+}
+
+#editor {
+    height: 100%;
+    width:50%;
+    display:inline-block;
+}
+
+
+#iframe {
+    height:100%;
+    display:inline-block;
+    width:50%;
+}
+
+/* disable tag matching */
+.ace_editor .ace_marker-layer .ace_bracket { display: none }
+
+.btn-lecciones{
+    margin: 5%, 5%;
+}
+
+.footer{
+    height: 400px;
+    width: 100vw;
+    background-color: rgb(248, 249, 250);
+    margin-top: 30px;
+    padding: 3% 3%;
+}
